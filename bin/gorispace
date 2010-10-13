@@ -1,0 +1,31 @@
+#!/usr/bin/env ruby -Ku
+require 'optparse'
+require File.dirname(__FILE__) + '/../src/gorispace'
+
+convert = false
+whitespace = false
+opts = OptionParser.new
+opts.on('-w', '--whitespace', 'Whitespace mode') {|v| whitespace = true}
+opts.on('-c', '--convert', 'Convert xspace code to Gorispace code') {|v| convert = true}
+opts.on('-d', '--debug', 'Debug mode') {|v| $DEBUG = true}
+opts.on_tail('-h', '--help', 'Show this message') {|v| puts(opts.help)}
+opts.parse!(ARGV)
+unless ARGV.empty?
+  code = ARGF.read
+  if convert
+    code = code.gsub(/[^ \t\n\r]/, '').gsub("\r\n", "\n").gsub("\r", "\n").gsub(' ', 'ウホ').gsub("\t", 'ウッホ').gsub("\n", 'ウホーイ')
+    code.gsub!('ホ') {|ignore| 'ホ' * (rand(4) + 1)}
+    code.gsub!('ホウ') {|ignore| rand(5) == 0 ? 'ホ。ウ' : 'ホウ'}
+    code.gsub!('ホウ') {|ignore| rand(3) == 0 ? 'ホ、ウ' : 'ホウ'}
+    code.gsub!('イウ') {|ignore| rand(3) == 0 ? 'イ。ウ' : 'イウ'}
+    print code
+  else
+    if whitespace
+      Gorispace.interprete(code, :whitespace)
+    else
+      Gorispace.interprete(code)
+    end
+  end
+else
+  puts(opts.help)
+end
