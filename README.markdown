@@ -115,10 +115,10 @@ Fibonacci
 参考サイト
 ---------
 
-* http://compsoc.dur.ac.uk/whitespace
-* http://ja.wikipedia.org/wiki/Ook!
+* [http://compsoc.dur.ac.uk/whitespace](http://compsoc.dur.ac.uk/whitespace)
+* [http://ja.wikipedia.org/wiki/Ook!](http://ja.wikipedia.org/wiki/Ook!)
 
 作者
 ----
 
-* http://d.hatena.ne.jp/technohippy/
+* [http://d.hatena.ne.jp/technohippy/](http://d.hatena.ne.jp/technohippy/)
