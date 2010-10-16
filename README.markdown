@@ -1,37 +1,37 @@
-ゴリラ用プログラミング言語 ゴリスペース
-=======================================
+Gorispace: Programing Language for Gorillas
+===========================================
 
-目的
-----
+Purpose
+-------
 
-霊長類の中でもオランウータン・チンパンジー・ボノボ・ゴリラは特に知能が高く、人間の5才児程度の知能を持ち、ある程度は抽象的な思考もこなせることが分かっています。言葉に関しても手話を操るチンパンジーやゴリラの話は有名でしょう。
+Orangutans, chimps, bonobos, and gorillas are so smart among apes that they can think about abstract matter. It is said that their interlligence corresponds to five-years-old human children. As you may know, there are chimps and gorillas in labs who can communicate using sign language.
 
-特にゴリラに関しては実際に人間とゴリラが言葉でやり取りをすることすら可能で、京都大学の[山極寿一](http://ja.wikipedia.org/wiki/%E5%B1%B1%E6%A5%B5%E5%AF%BF%E4%B8%80)教授は10種類ほどのゴリラ語を話すことができるといいます。そう考えると彼ら用のプログラミング言語があってもおかしくありません。いや、むしろ無いことの方がおかしいと言えるでしょう。
+In particular, gorillas in a forest can communicate with human. In a book I have read, [Juichi Yamagiwa](http://www.kyoto-u.ac.jp/en/research/forefront/message/rakuyu07_a.htm) said that he can speak more than 10 words used by gorillas. Under this fact, we wonder why there is not any programming language for gorillas.
 
-そこで私はゴリラ用プログラミング言語「ゴリスペース」を開発しました。
+So, I have developed `Gorispace', which is a programming language for gorillas.
 
 Hello World!
 ------------
 
-サンプルコード
+Sample code
 
-> ウホホホホウホホホ、ウホホ。ウッホホ。ウホホホホウホウッホホホホ。ウホホホホ、ウホホウホウホホーイウッホウホホホーイ。ウホホホホウホウホホホホ、ウホホウホホホホ。ウッホホウッホホホ、ウホホホウホホ。ウッホウホウッホホ、ウホホホーイウッホホ。ウホホーイウホホホ、ウホ、ウホホホホ。ウホホホホ。ウホウッホホウッホホホウホホホウッホホホホ、ウッホホ。ウホホホウホホホウホホホーイ。ウッホホホ。ウホホホホーイウホ、ウホホホウホホホホ、ウホホウホホホウッホホホホウッホホホホウホホホホウッホホホホウッホ、ウホホホ。ウホホホウホホホホーイ。ウッホウホーイウホホホホウホウホホホホウホホホホウホホホウッホホウッホホウホホホウッホホ、ウッホホウッホホウッホホウホホホーイウッホホホ、ウホーイウホホホウホホホウホホホホ、ウホホホ、ウホホホ。ウッホホホホウホホ、ウホホホホ、ウホ。ウホホホ、ウホ。ウホホホホーイ。ウッホホホホ、ウホホホーイ。ウホホウホウホホホウホホホ、ウホウッホホホホ、ウホウッホ、ウホホホウッホホホ。ウッホホホウッホホホ、ウホホホホーイ。ウッホ。ウホホホーイウホホウホホホ。ウホウホホホホ。ウホウッホウッホホホウホ。ウッホホウッホホホ。ウッホホホホウッホホウホホホホーイウッホホホホウホホーイウホホホホウホホホホ、ウホ。ウホホホホ。ウホホホ、ウッホ、ウッホホホホ、ウッホ、ウホウホホホウッホホホホ、ウホホホホウホーイウッホ、ウホホホーイ。ウホ、ウホホホ。ウホホウホホホホウホホホホウッホホ、ウッホウホホウッホホホ。ウッホウホホ、ウホホウホーイウッホ。ウホーイ。ウホウホホホホウホ。ウホホウホホ、ウッホウッホホ。ウホ、ウホホホウッホウホホ。ウホウホホーイ。ウッホホホホ、ウホーイウホウホ。ウホホ。ウホホホ、ウホウホホ。ウホホホホウホ。ウッホホホ。ウホホホ、ウッホ。ウホホホホ、ウホホーイ。ウッホホホ、ウホホホホーイウホホホホ、ウホホウホホホーイウホーイ。ウホホホホーイ
+> hoo hooo, hooo hoooos hoo, hoo. hoos hoooo, hoo hooo wraagh hooos wraaagh, hoooo hooo hoo hoooo hooo. hoooos, hoooos, hoo, hoooo hoooos hoo hoooos. wraaaagh. hooos wraaagh hoooo hoo hoo, hoooo hoo, hoooos hoooos hoo, hooos hoooos hoooo hoo, wraaaagh. hooos. wraagh. hooo hoooo hoooo hooo. hoooo. hooos, hoooos. hoo. hoooos, hoooos. hoooo, hooo. wraaaagh hooos wraaaagh hoooo hooo. hoo. hooo hoooo hoos hoooos hooo, hoos, hoooos, hoooos. hoos wraaagh hoos. wraaagh hoo, hoooo hoooo. hoo hoo, hoooos, hoooo, hoo. hooo. hoooo hooo wraagh, hoooos wraaagh hoo, hoooo hoooo, hoooo hoo hooos hooo hoooos, hoo, hoooos hooos hoos wraaagh hoooos, wraaaagh. hoo, hooo, hooo hoo hoo, hoooos, hooos hoooo. hoooos, hoooos hoos, hoos. wraaaagh, hoooos. wraaaagh, hoooo hoooo, hoooo hooo, hoo hooos hoooos hoooos hoo, hoo, hoooos hoooo, wraaagh hoos. wraaagh. hooo hoo, hoooo hoooo hooo. hoooos hooos hooo, hoooos. hoooos hooo. hoooo. wraaagh. hooos wraaaagh hoooo, hoooo, hoooo hoo, hooo, hooos, hooos hoooo. hoooo hoooos hoo hoooo wraaaagh hooos, wraaagh hooo, hooo hooo hoooo hooo, hoooo. hoooo hoooo, hooos hoooo, hoos hoo wraaagh, hoos wraaagh. hoooo hoo, wraaaagh wraaagh wraaaagh 
 
-実行結果
+Result
 
-> $ bin/gorispace samples/helloworld.gs 
+> $ bin/gorispace -e samples/en/helloworld.gs 
 > Hello World
 
 Fibonacci
 ---------
 
-サンプルコード
+Sample code
 
-> ウホウホウホホホホウッホウホホホウホホホウッホホホウホホホウホホウホホウホホホホーイ。ウッホウホーイウホホホ。ウホウホホホホ。ウホウホウッホホホホウッホホホホ、ウホホウッホホホホウッホホ。ウッホホホウッホウホーイ。ウッホホホホウホホホホーイ。ウホホホホウホ。ウホ、ウホホホウホホ。ウッホホホウッホホホウッホホホホ。ウホホホウッホホホホ、ウッホホホホウッホホ、ウホーイ。ウッホホホホウホーイウホウホホウホホ、ウホホウホウッホホホホウホホ、ウホホホホ。ウホウホホホウホウホーイウッホホウホーイウホ、ウホホホホウホホ。ウホホホホ、ウホホホホウッホホホホウッホホホホ、ウホホウッホホホホ。ウッホウホホホホウッホホホホウホーイウッホ。ウホホーイウホホ、ウホホホ。ウホホホ、ウホホホホウホホホホウッホウッホホホウホホホホ、ウホウホホホウホホホホウッホウホホホーイ。ウッホホ、ウホホホホーイウホホホホ、ウホウホ。ウホウホホウッホホホホウッホホホホ。ウホホ、ウッホホホホウッホウッホホホウホウホホホーイウッホホ、ウホホーイウホホホウホウホホ、ウホホホホ、ウホホウッホホホ、ウッホホホホ。ウッホホホ。ウッホ、ウホホホ。ウホウッホホウホホーイ。ウッホホホウホホーイウホホホホ。ウホホ。ウホウホホホウホホホ、ウッホホ、ウッホウッホホホホウッホ、ウッホホホホ、ウッホホウホホーイウッホホホホウホーイウホ、ウホホウホ。ウホホホホ。ウホホホホ、ウッホホホ。ウホホホホ。ウホホ。ウホホホ、ウホホホ。ウホウホホホーイウッホホウホーイウホホホウホホホ。ウホ、ウホホホホウホホホホウッホホホホウホホ、ウホホーイウッホウホホホホーイウッホホウッホウホホ、ウホホホホ、ウホホホホ。ウホホ、ウホーイ。ウホホホホ、ウホホホホ。ウホホ、ウッホホホホウホホーイウホホウホーイウホホ、ウッホホホ。ウホホホホーイウホホ、ウッホホホホウホホウホホウホウッホホホホ、ウホホ、ウッホホ、ウホホホウホホホーイウッホウホホーイウホホホホ、ウホホホ、ウホーイ。ウホ、ウホホホウッホホウホーイ。ウホ、ウホホーイウホホホウホホホホ。ウホホホ、ウホホウッホホウホホホーイウホホウホーイウッホホホホウッホホホホ、ウッホホホウホ、ウッホホウホウホホホ。ウホウホホホ。ウホホホホウホホウッホホホウホホーイウッホホ、ウッホホホホ、ウッホホホホ、ウホホホ。ウホホホーイウッホホ、ウホホ、ウホホーイウホホホウッホホウホホーイウホホウッホホ。ウホホウホウホホホウッホホホホウホ。ウッホ。ウホホホホウホホホーイウッホホウホホホーイウホホホホウホ、ウホホウホホホホ、ウホホウッホウホホ。ウホホホホーイウッホホホウッホホホホウッホホホ、ウホホホウホホホホウホ、ウッホホウホホホホーイウッホホウホホホホウホ、ウッホ、ウホウホーイウホホホホウホホホホウホホ、ウホホホホ、ウッホウホホホホ。ウホホーイウホホホ、ウホホーイウッホホ。ウッホウッホホホホウホホウホホホーイ。ウッホホホホ。ウッホホホホ、ウッホホホホ。ウホホホホウホホーイ。ウホーイウホホホホ。ウホホーイ。ウッホホ、ウホーイ。ウホホホーイウホホホホウホ。ウッホホホウホウホホホホーイウホーイウホホホーイウホーイ
+> hoo. hoooo hoooo. hoooos hoo hoooo hooos hoooo. hoooo hoooo, wraagh hoooos wraaagh, hoooo hoo, hoooo. hoo hooo hoooos, hoooos. hoo hooos, hooos, hooos, hoooos wraaagh hoooos. wraaagh hoooo, hoooo hooo hooo hooo hooos hoooos. hooos. hoooo, hooos, hoos hoos wraagh. hoos wraagh, hooo, hoo hoo hoooo hooo hoooos, hoo hooo. hoooo. hoo. hoooo wraagh hooos wraaaagh. hooo, hoo hoooo hoooo hooo. hooos hoos, hooo hoos, hooos, hoo, hooos. wraaaagh. hooos wraagh hooo hooo. hoo, hoo. hoo hoos hoooos, hoo hoooo. hoooo hoooo, hooos, wraaaagh hooos, wraaagh, hooo hoo hoo. hoooo hoooo. hoooos hoooos hoo hooos, hoooos hooos hooo wraaagh, hoooos. wraaagh, hooo hoo, hooo hoo. hooo, hooos, hooos hoooos hoos hooo, hoooo. hooos wraaagh hoos wraaaagh hoo hoooo. hooo, hoooo hoooo hooos. hoos hoos hooos, hooos hoos wraagh, hooos. wraaagh hoo. hoooo hoooo hooo hoooo hooos, hoooo, hooo hoooo hooo, hoooo. wraagh, hoos wraaagh, hoooo hoo hooo hoooo. hoooo, hooos hoooo wraagh, hoos, wraaaagh hoooos hoooos, hooo hoooo, hoooo. hooo, wraaaagh hoo. hoo hooo hoos wraagh. hooo. wraaagh, hoo, hooos wraagh, hoooo, hoos. hooo. hoooo, hoooo hoooos hoooo, hoooos hoo. wraaagh. hoooos. wraaagh. hooo hoooo. wraaagh, hoo, hoo hoos wraaaagh hooo, wraaaagh hooo, hoooo hoooo, hooo, hooos. wraaagh, hoooo wraagh, hooos hoos hoooos, hoooo hoooos. hooo hoooo. hoooo. hooo, hoo, hoo hoos, wraaaagh. hoooos hooos hooos hoooo wraaagh, hooos hoo, wraagh hoooo, hoos, wraaaagh hoooo hoooos, hoooo, hooo, hoooo hooos, hooo hoos. hoo wraaaagh hoos, wraagh hoooo hooo hoooo, hoooo hoooo. hooos hooo wraagh, hooos hooos hooos hoooo hoo. hoo, hooos wraaaagh hooos, hoooo hooo hoos. hoo, wraaaagh, hoo, hooo hoo hoo hoos hooo wraaaagh. hoo wraaaagh hoooos hooos. hoooos hooo, wraaagh, hoooos hooos, hoooos hooo wraaagh. wraaaagh hooo wraaagh hooos wraaaagh wraagh, hoooo hooo, hoos, hoo. wraaagh wraaagh. wraaagh wraaagh 
 
-実行結果
+Result
 
-> $ bin/gorispace samples/fibonacci.gs 
+> $ bin/gorispace -e samples/en/fibonacci.gs 
 > How many? 5
 > 1
 > 1
@@ -41,84 +41,84 @@ Fibonacci
 > 8
 > 13
 
-文法
-----
+Grammar
+-------
 
-    +--------------+--------------+
-    |IMP           |意味          |
-    +--------------+--------------+
-    |ウホ          |スタック操作  |
-    |ウッホウホ    |整数演算      |
-    |ウッホウッホ  |ヒープアクセス|
-    |ウホーイ      |フロー制御    |
-    |ウッホウホーイ|入出力        |
-    +--------------+--------------+
+    +-----------+------------------+
+    |IMP        |Meaning           |
+    +-----------+------------------+
+    |hoo        |Stack Manipulation|
+    |hoos hoo   |Arithmetic        |
+    |hoos hoos  |Heap access       |
+    |wraagh     |Flow Control      |
+    |hoos wraagh|I/O               |
+    +-----------+------------------+
 
-    スタック操作 IMP:ウホ
-    +----------------+----------+----------------------------+
-    |コマンド        |パラメータ|意味                        |
-    +----------------+----------+----------------------------+
-    |ウホ            |数値      |数値をスタックにプッシュ    |
-    |ウホーイウホ    |          |スタックトップを複製        |
-    |ウホーイウッホ  |          |スタックの1番目と2番目を交換|
-    |ウホーイウホーイ|          |スタックトップを破棄        |
-    +----------------+----------+----------------------------+
+    Stack Manipulation IMP:hoo 
+    +-------------+---------+-----------------------------------+
+    |Command      |Parameter|Meaning                            |
+    +-------------+---------+-----------------------------------+
+    |hoo          |Number   |Push the number onto the stack     |
+    |wraagh hoo   |         |Duplicate the top item on the stack|
+    |wraagh hoos  |         |Swap the top two items on the stack|
+    |wraagh wraagh|         |Discard the top item on the stack  |
+    +-------------+---------+-----------------------------------+
 
-    整数演算 IMP:ウッホウホ
-    +------------+----------+----------------------------+
-    |コマンド    |パラメータ|意味                        |
-    +------------+----------+----------------------------+
-    |ウホウホ    |          |スタックの上から二つを足し算|
-    |ウホウッホ  |          |スタックの上から二つを引き算|
-    |ウホウホーイ|          |スタックの上から二つを掛け算|
-    |ウッホウホ  |          |スタックの上から二つを割り算|
-    |ウッホウッホ|          |スタックの上から二つで剰余  |
-    +------------+----------+----------------------------+
+    Arithmetic IMP:hoos hoo 
+    +----------+---------+----------------+
+    |Command   |Parameter|Meaning         |
+    +----------+---------+----------------+
+    |hoo hoo   |         |Addition        |
+    |hoo hoos  |         |Subtraction     |
+    |hoo wraagh|         |Multiplication  |
+    |hoos hoo  |         |Integer Division|
+    |hoos hoos |         |Modulo          |
+    +----------+---------+----------------+
 
-    ヒープアクセス IMP:ウッホウッホ
-    +--------+----------+--------------------------+
-    |コマンド|パラメータ|意味                      |
-    +--------+----------+--------------------------+
-    |ウホ    |          |値をアドレスに格納        |
-    |ウッホ  |          |アドレスから値をスタックに|
-    +--------+----------+--------------------------+
+    Heap access IMP:hoos hoos 
+    +-------+---------+--------+
+    |Command|Parameter|Meaning |
+    +-------+---------+--------+
+    |hoo    |         |Store   |
+    |hoos   |         |Retrieve|
+    +-------+---------+--------+
 
+    Flow Control IMP:wraagh 
+    +-------------+---------+--------------------------------------------------------+
+    |Command      |Parameter|Meaning                                                 |
+    +-------------+---------+--------------------------------------------------------+
+    |hoo hoo      |Label    |Mark a location in the program                          |
+    |hoo hoos     |Label    |Call a subroutine                                       |
+    |hoo wraagh   |Label    |Jump unconditionally to a label                         |
+    |hoos hoo     |Label    |Jump to a label if the top of the stack is zero         |
+    |hoos hoos    |Label    |Jump to a label if the top of the stack is negative     |
+    |hoos wraagh  |         |End a subroutine and transfer control back to the caller|
+    |wraagh wraagh|         |End the program                                         |
+    +-------------+---------+--------------------------------------------------------+
 
-    フロー制御 IMP:ウホーイ
-    +----------------+----------+--------------------------------+
-    |コマンド        |パラメータ|意味                            |
-    +----------------+----------+--------------------------------+
-    |ウホウホ        |ラベル    |ラベル定義                      |
-    |ウホウッホ      |ラベル    |サブルーチン呼び出し            |
-    |ウホウホーイ    |ラベル    |無条件ジャンプ                  |
-    |ウッホウホ      |ラベル    |スタックトップがゼロならジャンプ|
-    |ウッホウッホ    |ラベル    |スタックトップが負ならジャンプ  |
-    |ウッホウホーイ  |          |サブルーチン終了                |
-    |ウホーイウホーイ|          |プログラム終了                  |
-    +----------------+----------+--------------------------------+
+    I/O IMP:hoos wraagh 
+    +---------+---------+---------------------------------------------------------------------------+
+    |Command  |Parameter|Meaning                                                                    |
+    +---------+---------+---------------------------------------------------------------------------+
+    |hoo hoo  |         |Output the character at the top of the stack                               |
+    |hoo hoos |         |Output the number at the top of the stack                                  |
+    |hoos hoo |         |Read a character and place it in the location given by the top of the stack|
+    |hoos hoos|         |Read a number and place it in the location given by the top of the stack   |
+    +---------+---------+---------------------------------------------------------------------------+
 
-    入出力 IMP:ウッホウホーイ
-    +------------+----------+----------------------------+
-    |コマンド    |パラメータ|意味                        |
-    +------------+----------+----------------------------+
-    |ウホウホ    |          |スタックトップの文字を出力  |
-    |ウホウッホ  |          |スタックトップの数値を出力  |
-    |ウッホウホ  |          |文字を読み込みアドレスに格納|
-    |ウッホウッホ|          |数値を読み込みアドレスに格納|
-    +------------+----------+----------------------------+
-
-    数値  : 数値は二進数で表し、ウホ が 0、ウッホ が 1、ウホーイ が終端記号
-    ラベル: ラベルは ウホ と ウッホ の列で表現され、ウホーイ が終端記号
+    Number: Numbers can be any number of bits wide, and are simply represented as a series of [Space] and [Tab], terminated by a [LF]. [Space] represents the binary digit 0, [Tab] represents 1. The sign of a number is given by its first character, [Space] for positive and [Tab] for negative. Note that this is not twos complement, it just indicates a sign.
+    Label : Labels are simply [LF] terminated lists of spaces and tabs. There is only one global namespace so all labels must be unique.
     
-    ※ なお、「ホ」の連続は「ホ」として扱われる
+    ※ Note: Sequence of `o' and `a' are viewed as one `o' and `a.'
 
-参考サイト
----------
+Refferences
+-----------
 
-* [http://compsoc.dur.ac.uk/whitespace](http://compsoc.dur.ac.uk/whitespace)
-* [http://ja.wikipedia.org/wiki/Ook!](http://ja.wikipedia.org/wiki/Ook!)
+* [Whitespace](http://compsoc.dur.ac.uk/whitespace)
+* [Ook!](http://en.wikipedia.org/wiki/Ook!)
+* [Gorilla Info](http://www.primates.com/gorillas/gorilla-info.html)
 
-作者
-----
+Author
+------
 
-* [http://d.hatena.ne.jp/technohippy/](http://d.hatena.ne.jp/technohippy/)
+* [ANDO Yasushi](http://reviewmycode.blogspot.com/)

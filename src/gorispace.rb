@@ -152,6 +152,11 @@ class Gorispace
     execute
   end
 
+  def gorispace_en(code)
+    scan(code.gsub(/[^hoswragh]/, '').gsub(/oo+/, 'oo').gsub(/aa+/, 'aa').gsub(/wraagh/, 'C').gsub(/hoos/, 'B').gsub(/hoo/, 'A').gsub(/[^ABC]/, ''))
+    execute
+  end
+
   def gorispace(code)
     scan(code.gsub(/[^ウッホーイ]/, '').gsub(/ホ+/, 'ホ').gsub(/ウホーイ/, 'C').gsub(/ウッホ/, 'B').gsub(/ウホ/, 'A').gsub(/[^ABC]/, ''))
     execute
